@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Newsreader:opsz,wght@6..72,600&display=swap"
       rel="stylesheet"
     />
     <style>
@@ -27,7 +27,9 @@
         position: relative;
         width: 1128px;
         height: 191px;
-        background: #000;
+        background:
+          linear-gradient(rgb(0 0 0 / 18%), rgb(0 0 0 / 18%)),
+          url("stars.webp") center 48% / cover no-repeat;
         color: #f3f4f5;
       }
 
@@ -55,16 +57,15 @@
       .tagline {
         position: absolute;
         top: 86px;
-        left: 50%;
+        left: 300px;
         width: max-content;
         margin: 0;
         color: #f3f4f5;
-        font-family: Manrope, Arial, Helvetica, sans-serif;
+        font-family: Newsreader, Georgia, serif;
         font-size: 28px;
-        font-weight: 700;
+        font-weight: 600;
         line-height: 1;
         letter-spacing: 0.055em;
-        transform: translateX(-50%);
         white-space: nowrap;
       }
     </style>
