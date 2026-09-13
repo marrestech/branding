@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1128, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 1128px;
+        height: 191px;
+        margin: 0;
+        overflow: hidden;
+        background: #000;
+      }
+
+      .banner {
+        position: relative;
+        width: 1128px;
+        height: 191px;
+        background: #000;
+        color: #f3f4f5;
+      }
+
+      .lockup {
+        position: absolute;
+        top: 14px;
+        right: 22px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #f3f4f5;
+        font-family: Manrope, Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: -0.025em;
+      }
+
+      .mark {
+        width: 24px;
+        height: 28px;
+        filter: invert(1);
+      }
+
+      .tagline {
+        position: absolute;
+        top: 86px;
+        left: 50%;
+        width: max-content;
+        margin: 0;
+        color: #f3f4f5;
+        font-family: Manrope, Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: 0.055em;
+        transform: translateX(-50%);
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="banner" aria-label="Marres LinkedIn company banner">
+      <div class="lockup" aria-label="MARRES">
+        <span>MARRES</span>
+        <img class="mark" src="../logo/marres-mark.svg" alt="" />
+      </div>
+      <p class="tagline">DECISION INTELLIGENCE FOR GROWING BUSINESSES</p>
+    </main>
+  </body>
+</html>
